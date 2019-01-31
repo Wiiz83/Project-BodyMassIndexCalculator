@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IMC App</string>
+    <string name="welcome">Bienvenue Sur IMC App !</string>
+    <string name="action_settings">Paramètres</string>
+     <string name="next">Suivant</string>
+     <string name="cancel">Sortir</string>
+     <string name="name">Entrer votre nom : </string>
+     <string name="height">Entrer votre taille : </string>
+     <string name="weight">Entrer votre poids : </string>
+     <string name="previous">Précédent</string>
+      <string name="bmi_value">Votre IMC est :</string>
+     <string name="submit">Soumettre</string>
+       <string name="calcul">Calcule</string>
+       <string name="title">VOTRE POSITION</string>
+       
+       <string name="retour">></string>
+  
+       <string name="error_required">Requis</string>
+       <string name="error_character_length">Less than 3 Chars</string>
+       
+       
+        <string-array name="b_choice">
+       		 <item>B1</item>
+       		 <item>B2</item>
+        	<item>B3</item>
+    </string-array>
+
+    
+   
+</resources>
