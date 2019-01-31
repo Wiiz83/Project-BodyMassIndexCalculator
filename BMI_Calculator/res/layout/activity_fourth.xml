@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/galaxy_wallpaper"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mobileapp.bmi_calculator.FourthActivity" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/Img_chart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chart"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp">
+
+        <TextView
+            android:id="@+id/Tv_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/title"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Previous"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/retour" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginTop="90dp"
+        android:id="@+id/Ll_attach"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/Img_attach"
+             android:layout_width="fill_parent"
+            android:layout_height="91dp"
+            android:src="@drawable/attach"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+</RelativeLayout>
